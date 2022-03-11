@@ -2,7 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:unki/pages/add_page.dart';
 import 'package:unki/pages/home_page.dart';
-import 'package:unki/pages/person_page.dart';
+//import 'package:unki/pages/person_page.dart';
+import 'package:unki/pages/map_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -13,7 +14,7 @@ class _HomePageState extends State<HomePage> {
   int currentIndex = 0;
   final screens = [
     HomesPage(),
-    PersonPage(),
+    AboutPage(),
   ];
 
   @override

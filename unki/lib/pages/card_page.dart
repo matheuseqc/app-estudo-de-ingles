@@ -106,7 +106,11 @@ Container buildContainerCard() {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "Colocar algumas informações aqui!",
+              'COLORS: CORES:                      '
+              'BLUE: AZUL;                        ' 
+              'RED: VERMELHO;                     '
+              'YELLOW: AMARELO;                   '
+              'GREEN: VERDE.                      ' ,
           style: TextStyle(
             fontSize: 24,
             color: Colors.black,
